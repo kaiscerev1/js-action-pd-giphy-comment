@@ -37791,7 +37791,7 @@ async function run() {
 
         // Get the context of the action
         const context = github.context;
-        const { owner, repon, number } = context.issue;
+        const { owner, repo, number } = context.issue;
         const prComment = await giphy.random({'thank-you': true});
 
         // Create a comment on the PR
