@@ -15,4 +15,5 @@ runs:
 branding:
   icon: 'gift'
   color: 'orange'
-
+- name: pr-comment-test-sharing
+  uses: kaiscerev1/js-action-pd-giphy-comment@1.0.0-alpha
