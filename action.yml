@@ -1,5 +1,5 @@
-name: 'Hello World'
-description: 'Greet someone and record the time'
+name: 'pr-comment-test-sharing'
+description: 'Post a comment on PR with a random Giphy image'
 inputs:
   github-token:
     description: 'GitHub Token'
@@ -10,3 +10,7 @@ inputs:
 runs:
   using: 'node20'
   main: 'dist/index.js'
+
+branding:
+  icon: 'gift'
+  color: 'orange'
